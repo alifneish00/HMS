@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/DataModel.csproj": {}
+  },
+  "projects": {
+    "/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/DataModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/DataModel.csproj",
+        "projectName": "DataModel",
+        "projectPath": "/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/DataModel.csproj",
+        "packagesPath": "/Users/alifneish/.nuget/packages/",
+        "outputPath": "/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alifneish/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

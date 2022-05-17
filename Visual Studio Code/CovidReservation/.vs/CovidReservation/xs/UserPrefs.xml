@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{03E7287E-60C4-4651-A068-B59843A9C31D}|Default">
+  <MonoDevelop.Ide.ItemProperties.HospitalReservation PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HospitalReservation/Controllers/ApiController.cs">
+    <Files>
+      <File FileName="HospitalReservation/Controllers/ApiController.cs" Line="156" Column="44" />
+      <File FileName="DataModel/DataContext.cs" Line="1" Column="1" />
+      <File FileName="DataModel/ReservationRequest.cs" Line="1" Column="1" />
+      <File FileName="DataModel/User.cs" Line="1" Column="1" />
+      <File FileName="DataModel/Bed.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

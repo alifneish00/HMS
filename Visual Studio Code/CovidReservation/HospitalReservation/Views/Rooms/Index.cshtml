@@ -1,0 +1,60 @@
+﻿@model IEnumerable<DataModel.Room>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@if (ViewBag.UserObject.IsAdmin || (ViewBag.UserObject.Hospital != null))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Floor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hospital)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Floor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActive)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hospital.Name)
+                </td>
+                @if (ViewBag.UserObject.IsAdmin || (ViewBag.UserObject.Hospital != null && ViewBag.UserObject.HospitalId.Equals(item.HospitalId)))
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Number">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Number">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Number">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

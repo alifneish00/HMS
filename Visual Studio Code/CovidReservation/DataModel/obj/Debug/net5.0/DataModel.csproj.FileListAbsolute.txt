@@ -1,0 +1,12 @@
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/bin/Debug/net5.0/DataModel.deps.json
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/bin/Debug/net5.0/DataModel.dll
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/bin/Debug/net5.0/ref/DataModel.dll
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/bin/Debug/net5.0/DataModel.pdb
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/obj/Debug/net5.0/DataModel.csproj.AssemblyReference.cache
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/obj/Debug/net5.0/DataModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/obj/Debug/net5.0/DataModel.AssemblyInfoInputs.cache
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/obj/Debug/net5.0/DataModel.AssemblyInfo.cs
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/obj/Debug/net5.0/DataModel.csproj.CoreCompileInputs.cache
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/obj/Debug/net5.0/DataModel.dll
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/obj/Debug/net5.0/ref/DataModel.dll
+/Users/alifneish/Downloads/PROJECTSM2/CovidReservation/DataModel/obj/Debug/net5.0/DataModel.pdb

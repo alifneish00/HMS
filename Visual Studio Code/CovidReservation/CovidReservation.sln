@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModel", "DataModel\DataModel.csproj", "{FE442E82-CA96-470C-98DE-B39BD0D71982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalReservation", "HospitalReservation\HospitalReservation.csproj", "{03E7287E-60C4-4651-A068-B59843A9C31D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE442E82-CA96-470C-98DE-B39BD0D71982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE442E82-CA96-470C-98DE-B39BD0D71982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE442E82-CA96-470C-98DE-B39BD0D71982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE442E82-CA96-470C-98DE-B39BD0D71982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E7287E-60C4-4651-A068-B59843A9C31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E7287E-60C4-4651-A068-B59843A9C31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E7287E-60C4-4651-A068-B59843A9C31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E7287E-60C4-4651-A068-B59843A9C31D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E05A59E9-D261-48ED-8C71-0A25ED5D8E60}
+	EndGlobalSection
+EndGlobal

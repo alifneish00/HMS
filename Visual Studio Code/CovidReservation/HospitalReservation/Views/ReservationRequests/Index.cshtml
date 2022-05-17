@@ -1,0 +1,63 @@
+﻿@model IEnumerable<DataModel.ReservationRequest>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+@*
+<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RequestDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hospital)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Reservation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RequestDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hospital.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Reservation.Id)
+            </td>
+                @if(item.Status==DataModel.ReservationRequestStatus.Pending)
+                {
+                    <td>
+                        <a asp-action="Accept" asp-route-id="@item.Id" asp-controller="ReservationRequests">Accept</a> |
+                        <a asp-action="Reject" asp-route-id="@item.Id" asp-controller="ReservationRequests">Reject</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id" asp-controller="ReservationRequests">Delete</a>
+                    </td>
+                }
+        </tr>
+}
+    </tbody>
+</table>
