@@ -1,7 +1,7 @@
 # HMS
  <br> Make sure Android studio and Visual Studio installed <br>
- <br> Make sure Android SDK and JDK installed
- <br> Make sure .net 6 installed
+ <br> Make sure Android SDK and JDK installed <br>
+ <br> Make sure .net 6 installed <br>
  <br> Open the Web Application "Covid reservation" folder with Visual Studio <br> 
  <br> Run the project on the local host <br> 
  <br> On Your Web browser Navigate to https://ip:port/ (Your local ipv4 address and the port used by the local host) <br> 
