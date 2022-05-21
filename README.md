@@ -12,4 +12,4 @@
  <br>Client Side<br>
  <br> Open "android code" with Android Studio <br> 
  <br> configure all IP addresses and ports on the Https requests URLs inside all Android Java classes to match the local host IP address <br> 
- <br> Run the adnroid emulator to test the App or Install APK on Mobile <br> 
+ <br> Run the android emulator to test the App or Install APK on Mobile <br> 
